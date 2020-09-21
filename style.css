@@ -1,3 +1,28 @@
-h1 {
-  color: blue;  
+body{
+  font-family: 'Kosugi', sans-serif;
+}
+#header{
+  width:100vw;
+  height:90px;
+  background-color: #666;
+}
+#wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.context{
+  margin:10px;
+  min-height: 300px;
+  background-color: aquamarine;
+}
+
+#footer{
+  width:100vw;
+  height:100px;
+  background-color: #666;
 }
