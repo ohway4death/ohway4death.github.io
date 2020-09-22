@@ -6,69 +6,73 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="header">
-            <h1>ways blog</h1>
-        </div>
+        <header>
+            <h1>way's blog</h1>
+        </header>
 
         <nav class="nav">
             <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">research</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">contact</a></li>
+                <li class="bi1"><a href="#">about</a></li>
+                <li class="bi2"><a href="#">research</a></li>
+                <li class="bi1"><a href="#">work</a></li>
+                <li class="bi2"><a href="#">contact</a></li>
             </ul>
         </nav>
 
-        <div class = "wrapper">
-            <div id = "about" class="context">
-                <h2>Profile</h2>
-                <ul>
-                    <li>情報系の大学院1年生</li>
-                    <li>兵庫県出身</li>
-                </ul>        
-            </div>
-
-            <div id="languages" class="context">
-                <h2>Available Programing Languages</h2>
-                <ul>
-                    <li>C</li>
-                    <li>R</li>
-                    <li>Python</li>
-                    <li>java</li>
-                    <li>html</li>
-                    <li>CSS</li>
-                    <li>swift</li>
-                </ul>
-            </div>
-
-            <div id="qualify" class="context">
-                <h2>Qualification</h2>
-                <ul>
-                    <li>第2種電気工事士</li>
-                    <li>基本情報技術者</li>
-                    <li>TOEIC 760</li>
-                </ul>
-            </div>
-
-            <div id="research" class="context">
-                <h2>Research</h2>
-                <ul>
-                    <li>スイッチング素子の損失を推定可能なシミュレーションモデルの提案と検証 （高専在学時）</li>
-                    内容
-                    <li>複数時点の逆位置指紋と移動距離を用いた協調位置指紋による屋内位置推定</li>
-                    内容
-                </ul>
-            </div>
-
-            <div id="work" class="context">
-                <h2>Work</h2>
-                <ul>
-                    <li>HTML Learn</li>
-                    <li>CSS Learn</li>
-                    <li>Music Tesla Coil</li>
-                </ul>
-            </div>
+        <div class="title">
+            <h2>about</h2>
         </div>
+
+        <div class = "wrapper">
+            <div id="about">
+                <div id="image">
+                    <img src="icon.jpeg" alt="アイコン" title="アイコン">  
+                </div>
+                <div id="me">
+                    <table>
+                        <tr>
+                            <th>名前</th>
+                            <td>ohway</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>1997/04/11</td>
+                        </tr>
+                        <tr>
+                            <th>趣味</th>
+                            <td>いろいろ</td>
+                        </tr>
+                        <tr>
+                            <th>出身</th>
+                            <td>兵庫県神戸市</td>
+                        </tr>
+                        <tr>
+                            <th>現在地</th>
+                            <td>千葉県千葉市</td>
+                        </tr>
+                        <tr>
+                            <th>言語</th>
+                            <td>C, R, Python, java, HTML, swift</td>
+                        </tr>
+                        <tr>
+                            <th>資格</th>
+                            <td>第2種電気工事士，基本情報技術者，TOEIC 760</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+            <div id="detail" class="context">
+                <table>
+                    <tr>
+                        <th>自己紹介</th>
+                        <td>
+                            大学院で屋内での位置推定について研究しています．現在は情報系にいますが，高専在学時は電気工学について学んでいました．
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
         <div id="footer">
             &copy 2020 ways blog. All Rights Reserved.
